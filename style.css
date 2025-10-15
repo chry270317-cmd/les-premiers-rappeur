@@ -1,0 +1,100 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite AU QLD", cursive;
+    background-color: black;
+}
+.rap{
+    width: 100%;
+    height: 350px;
+}
+
+.titre{
+    font-size: 3rem;
+    color: orangered;
+    text-align: center;
+    margin-top: 20px;
+}
+.para1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.carte{
+    width: 90%;
+    height: auto;
+    perspective: 1000px;
+    margin: 30px ;
+    padding: 50px;
+    }
+.interieur{
+    width: 100%;
+    height: 100%;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+   
+}
+.interieur.flipped{
+    transform: rotateY(180deg);
+}
+
+.devant img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.derriere {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+    font-size:1.3rem ;
+    backface-visibility: hidden;
+    box-shadow: 0 10px 20px 10px white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.texte{
+    color: white;
+}
+.lien{
+    color: orange;
+    text-decoration: none;
+    transition: 1s;
+}
+.lien:hover{
+   box-shadow: 0 3px 0 0 white;
+}
+@media screen and (max-width: 600px) {
+    .para1 {
+        flex-direction: column; /* cartes empilées verticalement */
+        padding: 30px;
+        margin: 10px;
+        
+    }
+
+    .titre {
+        font-size: 1.9rem;
+        margin: 20px;
+    }
+
+    .carte {
+        width: 80%;
+        aspect-ratio: 4/3;
+    }
+
+    .derriere {
+        width: 80%;
+        font-size: 1rem;
+        padding: 25px;
+    }
+}
+   
