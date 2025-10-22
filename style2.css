@@ -71,7 +71,7 @@ header{
     color: wheat;
     transform: rotateY(180deg);
     font-size: 1.5rem;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 .lien{
     text-decoration: none;
@@ -82,7 +82,7 @@ header{
     color: #ffd700;
 }
 .iam{
-    line-height: 1.2;
+    line-height: 35px;
 }
 h2{
     display: flex;
@@ -93,17 +93,20 @@ h2{
     text-shadow: 0 10px 20px red;
 }
 .résumer{
-    
     line-height: 1.8;
     color: wheat;
     margin: 10px auto;
     padding: 20px;
+}
+.texte{
+    margin: 100px;
 }
 .table{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
+    margin: 60px;
 }
 .mcsolaar,.ntm,.iam{
     border-collapse: collapse;
@@ -126,5 +129,5 @@ th, td {
     }
     .table{
         flex-direction: column;
-    }
+
 }
