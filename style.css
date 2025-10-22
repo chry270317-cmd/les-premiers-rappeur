@@ -20,6 +20,8 @@ ul strong{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+   
 }
 ul li {
     list-style: none;
@@ -80,7 +82,7 @@ ul li:nth-child(9){
     padding: 10px;
 }
 .carte{
-    width: 90%;
+    width: 100%;
     height: auto;
     perspective: 1000px;
     margin: 30px ;
@@ -88,7 +90,7 @@ ul li:nth-child(9){
     }
 .interieur{
     width: 100%;
-    height: 100%;
+    height: auto;
     transition: transform 1.5s;
     transform-style: preserve-3d;
     cursor: pointer;
@@ -111,16 +113,16 @@ ul li:nth-child(9){
     width: 400px;
     height: 400px;
     background-color: black;
-    color: white;
+    color: wheat;
     transform: rotateY(180deg);
     font-size:1.3rem ;
     backface-visibility: hidden;
-    box-shadow: 0 10px 20px 10px white;
+    box-shadow: 0 10px 20px 10px wheat;
     border-radius: 20px;
     padding: 10px;
 }
 .texte{
-    color: white;
+    color: wheat;
 }
 .lien{
     color: orange;
@@ -128,7 +130,7 @@ ul li:nth-child(9){
     transition: 1s;
 }
 .lien:hover{
-   box-shadow: 0 3px 0 0 white;
+   box-shadow: 0 3px 0 0 wheat;
 }
 .para2{
     display: flex;
@@ -136,7 +138,7 @@ ul li:nth-child(9){
     align-items: center;
     padding: 10px;}
 .carte2{
-    width: 30%;
+    width: 100%;
     height: auto;
     perspective: 1000px;
     margin: 30px ;
@@ -144,7 +146,7 @@ ul li:nth-child(9){
     }
 .interieur2{
     width: 100%;
-    height: 100%;
+    height: auto;
     transition: transform 1.5s;
     transform-style: preserve-3d;
     cursor: pointer;
@@ -163,14 +165,14 @@ ul li:nth-child(9){
     border-radius: 50px;
 }
 .derriere2 {
-    width: 300px;
-    height: 420px;
+    width: 400px;
+    height: 400px;
     background-color: black;
-    color: white;
+    color: wheat;
     transform: rotateY(180deg);
     font-size:1.3rem ;
     backface-visibility: hidden;
-    box-shadow: 0 10px 20px 10px white;
+    box-shadow: 0 10px 20px 10px wheat;
     border-radius: 20px;
     padding: 10px;
 }
@@ -187,23 +189,27 @@ ul li:nth-child(9){
 .next:hover{
     color: red;
 }
-
+.video{
+    text-align: center;
+    color: wheat;
+}
 @media screen and (max-width: 768px) {
     .para1,.para2 {
-        flex-direction: column; /* cartes empilées verticalement */
-        padding: 50px;
-        margin: 10px auto;
-        
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px;
+       
     }
+        
 
     .titre {
-        font-size: 1.9rem;
-        margin: 10px;
-        padding: 30px;
+        font-size: 1.2rem;
+       padding: 50px;
     }
 
     .carte,.carte2 {
-        width: 80%;
+        flex-wrap: wrap;
+        width: 100%;
         aspect-ratio: 4/3;
     }
 
