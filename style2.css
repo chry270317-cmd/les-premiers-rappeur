@@ -41,10 +41,12 @@ header{
     height: 100%;
     transition: transform 1.5s;
     transform-style: preserve-3d;
+    cursor: pointer;
 }
-.interieur:hover{
+.interieur.flipped{
     transform: rotateY(180deg);
-    box-shadow: 0 0 20px #888; 
+    box-shadow: 0 5px 10px  white;
+   
 }
 
 .devant , .derriere{
@@ -62,7 +64,10 @@ header{
 .devant img{
     width: 100%;
     height: 100%;
-    border-radius: 20PX;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    object-fit: cover;
 }
 .derriere{
     max-width: 100%;
@@ -102,6 +107,7 @@ h2{
 
 .table{
     width: 90%;
+
     display: flex;
     justify-content: center;
     align-items: center;
