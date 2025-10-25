@@ -71,7 +71,7 @@ header{
     color: wheat;
     transform: rotateY(180deg);
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 .lien{
     text-decoration: none;
@@ -114,6 +114,8 @@ h2{
     color: wheat;
 }
 th, td {
+    width: 200px
+    height:200px    
     border: 2px solid red;
     padding: 5px;
     text-align: center;
