@@ -31,10 +31,11 @@ header{
     color: wheat;
 }
 .carte3{
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     perspective: 1000px;
     margin: 30px auto; 
+    padding: 20px;  
 }
 .interieur{
     width: 100%;
@@ -45,7 +46,7 @@ header{
 }
 .interieur.flipped{
     transform: rotateY(180deg);
-    box-shadow: 0 5px 10px  white;
+    box-shadow: 0 5px 10px white;
    
 }
 
@@ -76,7 +77,11 @@ header{
     color: wheat;
     transform: rotateY(180deg);
     font-size: 1.5rem;
-    line-height: 1.4;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .lien{
     text-decoration: none;
@@ -87,7 +92,7 @@ header{
     color: #ffd700;
 }
 .iam{
-    line-height: 35px;
+
 }
 h2{
     display: flex;
@@ -121,6 +126,19 @@ th, td {
     border: 2px solid red;
     padding: 5px;
     text-align: center;
+}
+.next1{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: yellow;
+    transition: 1.5s ease-in-out;
+}
+.next1:hover{
+    color: red;
 }
 @media screen and (max-width: 768px) {
     header{ font-size: 1.9rem;
