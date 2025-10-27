@@ -124,7 +124,7 @@ h2{
 th, td {
     border-collapse:collapse;   
     border: 2px solid red;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
 }
 .next1{
@@ -150,6 +150,7 @@ th, td {
     }
     .table{
         flex-direction: column;
+        margin-inline: 20px;
     }
     .résumer{
         font-size: 1rem;
