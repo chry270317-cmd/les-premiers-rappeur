@@ -1,6 +1,7 @@
 
+
 body{
-    width: 100%;
+    max-width: 100%;
     margin: 0;
     padding: 0;
     background-color: black;
@@ -20,7 +21,7 @@ body{
     height:500px ;
     perspective: 1000px;
     margin: 30px auto; 
-    padding: 20px;  
+    
 }
 .interieur{
     width: 100%;
@@ -31,9 +32,8 @@ body{
 }
 .interieur.flipped{
     transform: rotateY(180deg);
-    box-shadow: 0 5px 10px white;
 }
-.devant , .derriere{
+.devant , .derriere{ 
     position: absolute;
     max-width: 100%;
     height: 100%;
@@ -52,16 +52,18 @@ body{
     max-width: 100%;
     height: auto;
     background-color: black;
-    color: wheat;
+    color: grey;
     transform: rotateY(180deg);
-    font-size: 1.5rem;
-    line-height: 1.6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    font-size: 2rem;
+    padding: 10px 10px; 
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+   
 }
-
+.info{
+    font-size: 1.5rem;
+}
 
 
 
