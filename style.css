@@ -71,7 +71,7 @@ ul li {
     background-color: black;
     color: wheat;
     transform: rotateY(180deg);
-    font-size:1.5rem ;
+    font-size:1.3rem ;
     backface-visibility: hidden;
     box-shadow: 0 10px 20px 10px wheat;
     border-radius: 20px;
@@ -127,7 +127,7 @@ ul li {
     background-color: black;
     color: wheat;
     transform: rotateY(180deg);
-    font-size:1.5rem ;
+    font-size:1.3rem ;
     backface-visibility: hidden;
     box-shadow: 0 10px 20px 10px wheat;
     border-radius: 20px;
