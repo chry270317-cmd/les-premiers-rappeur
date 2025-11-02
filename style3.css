@@ -1,7 +1,7 @@
 
 
 body{
-    max-width: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: black;
@@ -66,10 +66,7 @@ body{
     font-size: 1.5rem;
 }
 @media screen and (max-width:768px) {
-    body{
-        margin: 0;
-        padding: 0;
-    }
+    
 .entete3 {
     flex-direction: column;
     font-size: 1.5rem;
@@ -80,8 +77,8 @@ body{
     width: 400px;
     }
 .carte4{
-    width: 400px;
-    height: 240px;
+    width: 380px;
+    height: 200px;
 }
  .derriere {
     
