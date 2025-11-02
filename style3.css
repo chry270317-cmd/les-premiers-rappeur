@@ -26,9 +26,13 @@ body{
     user-select: none;
     -webkit-tap-highlight-color:
     transparent;
-    outline:none
-   
-    
+    outline:none;
+}
+.carte4{
+    outline: none;
+}
+.carte4:focus {
+    outline: none;
 }
 .interieur{
     position: relative;
