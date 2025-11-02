@@ -1,17 +1,19 @@
 
 
 body{
+     font-family: "Playwrite AU QLD", cursive;
     width: 100%;
     margin: 0;
     padding: 0;
     background-color: black;
+    
 }
 .entete3{
     display:flex;
     justify-content:space-around;
     align-items: center;
     text-align: center;
-    margin-inline: 80px;
+    margin: 0 30px;
     font-size: 3rem;
     color: grey;
     text-shadow: 0 5px 10px red;
@@ -58,10 +60,15 @@ body{
     color: grey;
     transform: rotateY(180deg);
     font-size: 2rem; 
+    overflow: scroll;
+    box-shadow: 0 5px 5px 5px wheat;
     justify-content:center;
     align-items:center;
     text-align:center;
 }
+.derriere::-webkit-scrollbar {
+      display: none; /* Chrome/Safari : cache la barre */
+  }
 .info{
     font-size: 1.5rem;
 }
