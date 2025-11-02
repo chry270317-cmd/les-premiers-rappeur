@@ -36,6 +36,16 @@ header{
     perspective: 1000px;
     margin: 30px auto; 
     padding: 20px;  
+      user-select: none;
+    -webkit-tap-highlight-color:
+    transparent;
+    outline:none;
+}
+.carte3{
+    outline: none;
+}
+.carte3:focus {
+    outline: none;
 }
 .interieur{
     width: 100%;

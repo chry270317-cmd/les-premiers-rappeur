@@ -28,7 +28,18 @@ body{
     perspective: 1000px;
     margin: 30px ;
     padding: 50px;
-    }
+      user-select: none;
+    -webkit-tap-highlight-color:
+    transparent;
+    outline:none;
+}
+.carte{
+    outline: none;
+}
+.carte:focus {
+    outline: none;
+}
+    
 .interieur{
     width: 100%;
     height: auto;
