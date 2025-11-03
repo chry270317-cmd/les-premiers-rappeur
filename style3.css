@@ -18,20 +18,21 @@ body{
     color: grey;
     text-shadow: 0 5px 10px red;
 }
-.carte4{
+.carte4,.carte5,.carte6{
     width: 900px;
     height:500px ;
     perspective: 1000px;
     margin: 50px auto; 
+    gap: 30px;
     user-select: none;
     -webkit-tap-highlight-color:
     transparent;
     outline:none;
 }
-.carte4{
+.carte4,.carte5,.carte6{
     outline: none;
 }
-.carte4:focus {
+.carte4,.carte5,.carte6:focus {
     outline: none;
 }
 .interieur{
@@ -73,6 +74,7 @@ body{
     justify-content:center;
     align-items:center;
     text-align:center;
+    padding: 10px;
 }
 .derriere::-webkit-scrollbar {
       display: none; /* Chrome/Safari : cache la barre */
@@ -91,15 +93,18 @@ body{
 .rap3{
     width: 400px;
     }
-.carte4{
-    width: 380px;
-    height: 200px;
+.carte4,.carte5,.carte6{
+    width: 400px;
+    height: 220px;
 }
  .derriere {
-    
-      overflow-y: scroll;
+    font-size: 1.5rem;  
+    overflow-y: scroll;
       -webkit-overflow-scrolling: touch; /* ⚡️ effet fluide sur iPhone */
       scrollbar-width: none; /* Firefox : cache la barre */
+  }
+  .info{
+    font-size: 1rem;
   }
 
   .derriere::-webkit-scrollbar {

@@ -28,7 +28,7 @@ body{
     perspective: 1000px;
     margin: 30px ;
     padding: 50px;
-      user-select: none;
+    user-select: none;
     -webkit-tap-highlight-color:
     transparent;
     outline:none;
@@ -96,7 +96,17 @@ body{
     perspective: 1000px;
     margin: 30px ;
     padding: 50px;
-    }
+     user-select: none;
+    -webkit-tap-highlight-color:
+    transparent;
+    outline:none;
+}
+.carte{
+    outline: none;
+}
+.carte:focus {
+    outline: none;
+}
 .interieur2{
     width: 100%;
     height: auto;
