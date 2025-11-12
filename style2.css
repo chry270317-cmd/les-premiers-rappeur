@@ -48,6 +48,7 @@ header{
     outline: none;
 }
 .interieur{
+    position: relative;
     width: 100%;
     height: 100%;
     transition: transform 1.5s;
@@ -101,7 +102,6 @@ header{
 .lien:hover{
     color: #ffd700;
 }
-
 h2{
     display: flex;
     justify-content: center;
